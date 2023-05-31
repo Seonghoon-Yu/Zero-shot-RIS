@@ -48,7 +48,7 @@ cd old_detectron2
 pip install -e .
 ```
 
-### 3. Download FreeSOLO pre-trained weiths
+### 3. Download [FreeSOLO](https://github.com/NVlabs/FreeSOLO) pre-trained weiths
 we use [FreeSOLO](https://github.com/NVlabs/FreeSOLO) which is an unsupervised instance segmentation model as the mask generator
 ```shell
 mkdir checkpoints
