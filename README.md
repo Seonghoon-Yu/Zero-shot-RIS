@@ -12,6 +12,7 @@ This repogitory store the code for implementing the Global-Local CLIP algorithm 
 
 
 ## Installation
+### Environment
 ```shell
 # cteate conda env
 conda create -n zsref python=3.8
@@ -33,7 +34,20 @@ pip install scikit-image
 pip install h5py
 conda install -c conda-forge einops
 pip install markupsafe==2.0.1
-
 ```
+### Third Party
+```shell
+# Install modified CLIP in a dev mode
+cd third_parth
+cd modified_CLIP
+pip install -e .
+
+# Install detectron2 for FreeSOLO
+cd ..
+cd old_detectron2
+pip install -e .
+```
+
+## Dataset
 
 ## Citation
