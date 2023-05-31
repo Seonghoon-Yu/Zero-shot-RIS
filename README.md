@@ -102,3 +102,10 @@ Please consider citing our paper in your publications, if our findings help your
     pages     = {19456-19465}
 }
 ```
+
+## Acknowledgements
+Code is built upon several public repositories.
+- Evaluation Metric and Dataset Preparation: [LAVT](https://github.com/yz93/LAVT-RIS)  
+- Base Backbone code: [CLIP](https://github.com/openai/CLIP)  
+- Mask Generator: [FreeSOLO](https://github.com/NVlabs/FreeSOLO)  
+Thanks.
