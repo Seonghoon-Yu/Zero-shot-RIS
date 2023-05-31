@@ -1,0 +1,55 @@
+
+
+ CLIP Model: ViT
+Dataset: refcoco / val
+Overall IoU / mean IoU
+24.83 / 26.23
+
+ CLIP Model: ViT
+Dataset: refcoco / testB
+Overall IoU / mean IoU
+24.60 / 26.55
+
+ CLIP Model: ViT
+Dataset: refcoco / testA
+Overall IoU / mean IoU
+23.66 / 24.54
+
+ CLIP Model: ViT
+Dataset: refcoco+ / val
+Overall IoU / mean IoU
+26.12 / 27.60
+
+ CLIP Model: ViT
+Dataset: refcoco+ / testA
+Overall IoU / mean IoU
+24.86 / 25.79
+
+ CLIP Model: ViT
+Dataset: refcoco+ / testB
+Overall IoU / mean IoU
+25.74 / 28.04
+
+ CLIP Model: ViT
+Dataset: refcocog / val
+Overall IoU / mean IoU
+30.75 / 33.70
+
+ CLIP Model: ViT
+Dataset: refcocog / test
+Overall IoU / mean IoU
+
+ CLIP Model: ViT
+Dataset: refcocog / val
+Overall IoU / mean IoU
+30.75 / 33.70
+
+ CLIP Model: ViT
+Dataset: refcocog / val / umd
+Overall IoU / mean IoU
+31.08 / 33.70
+
+ CLIP Model: ViT
+Dataset: refcocog / val / google
+Overall IoU / mean IoU
+30.75 / 33.70

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JupyterPersistentConnectionParameters">
+    <option name="knownRemoteServers">
+      <list>
+        <JupyterConnectionParameters>
+          <option name="authType" value="notebook" />
+          <option name="urlString" value="http://125.6.37.172:8888" />
+          <authParams2>
+            <map />
+          </authParams2>
+        </JupyterConnectionParameters>
+        <JupyterConnectionParameters>
+          <option name="authType" value="notebook" />
+          <option name="token" value="5a603de32714a0d3310da2147751eb63286ff22a289b2551" />
+          <option name="urlString" value="http://210.125.85.202:8888" />
+          <authParams2>
+            <map>
+              <entry key="token" value="5a603de32714a0d3310da2147751eb63286ff22a289b2551" />
+            </map>
+          </authParams2>
+        </JupyterConnectionParameters>
+        <JupyterConnectionParameters>
+          <option name="authType" value="notebook" />
+          <option name="token" value="07b918ce657e6c411c72b4b4a310087164bc7d54c0ce2dd3" />
+          <option name="urlString" value="http://210.125.85.203:8888" />
+          <authParams2>
+            <map>
+              <entry key="token" value="07b918ce657e6c411c72b4b4a310087164bc7d54c0ce2dd3" />
+            </map>
+          </authParams2>
+        </JupyterConnectionParameters>
+      </list>
+    </option>
+    <option name="moduleParameters">
+      <map>
+        <entry key="$USER_HOME$/PycharmProjects/zsref/.idea/zsref.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="authType" value="notebook" />
+              <option name="urlString" value="http://125.6.37.172:8888" />
+              <authParams2>
+                <map />
+              </authParams2>
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lavt/.idea/lavt.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="authType" value="notebook" />
+              <option name="token" value="07b918ce657e6c411c72b4b4a310087164bc7d54c0ce2dd3" />
+              <option name="urlString" value="http://210.125.85.203:8888" />
+              <authParams2>
+                <map>
+                  <entry key="token" value="07b918ce657e6c411c72b4b4a310087164bc7d54c0ce2dd3" />
+                </map>
+              </authParams2>
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pseudo_ris/.idea/pseudo_ris.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="authType" value="notebook" />
+              <option name="urlString" value="http://210.125.85.203:8888" />
+              <authParams2>
+                <map />
+              </authParams2>
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../zsref/.idea/zsref.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="authType" value="notebook" />
+              <option name="token" value="5a603de32714a0d3310da2147751eb63286ff22a289b2551" />
+              <option name="urlString" value="http://210.125.85.202:8888" />
+              <authParams2>
+                <map>
+                  <entry key="token" value="5a603de32714a0d3310da2147751eb63286ff22a289b2551" />
+                </map>
+              </authParams2>
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
