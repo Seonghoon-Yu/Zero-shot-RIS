@@ -12,7 +12,7 @@ This repogitory store the code for implementing the Global-Local CLIP algorithm 
 
 
 ## Installation
-### Environment
+### 1. Environment
 ```shell
 # cteate conda env
 conda create -n zsref python=3.8
@@ -35,7 +35,7 @@ pip install h5py
 conda install -c conda-forge einops
 pip install markupsafe==2.0.1
 ```
-### Third Party
+### 2. Third Party
 ```shell
 # Install modified CLIP in a dev mode
 cd third_parth
@@ -48,6 +48,39 @@ cd old_detectron2
 pip install -e .
 ```
 
+### 3. Download FreeSOLO pre-trained weiths
+we use [FreeSOLO](https://github.com/NVlabs/FreeSOLO) which is an unsupervised instance segmentation model as the mask generator
+```shell
+mkdir checkpoints
+cd checkpoints
+wget https://cloudstor.aarnet.edu.au/plus/s/V8C0onE5H63x3RD/download
+```
+
 ## Dataset
+we follow [dataset setup](https://github.com/yz93/LAVT-RIS/tree/main/refer) in [LAVT](https://github.com/yz93/LAVT-RIS)
+### 1. Download COCO 2014 train images
+In "./refer/data/images/mscoco/images" path
+```shell
+wget http://images.cocodataset.org/zips/train2014.zip
+unzip train2014
+```
+
+### 2. Download RefCOCO, RefCOCO+, and RefCOCOg annotations 
+In "./refer/data" path
+```shell
+# RefCOCO
+wget https://bvisionweb1.cs.unc.edu/licheng/referit/data/refcoco.zip
+unzip refcoco.zip
+
+# RefCOCO+
+wget https://bvisionweb1.cs.unc.edu/licheng/referit/data/refcoco+.zip
+unzip refcoco+.zip
+
+# RefCOCOg
+wget https://bvisionweb1.cs.unc.edu/licheng/referit/data/refcocog.zip
+unzip refcocog.zip
+```
+
+
 
 ## Citation
