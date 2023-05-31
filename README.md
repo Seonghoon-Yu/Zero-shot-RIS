@@ -81,6 +81,14 @@ wget https://bvisionweb1.cs.unc.edu/licheng/referit/data/refcocog.zip
 unzip refcocog.zip
 ```
 
+## Evaluation
+To evaluate a model's performance on RefCOCO variants, use
+```shell
+python Our_method_with_free_solo.py --dataset refcoco --split val
+```
+For options,  
+--dataset: refcoco, refcoco+, refcocog  
+--split: val, testA, testB for refcoco and val, test for refcocog  
 
 
 ## Citation
