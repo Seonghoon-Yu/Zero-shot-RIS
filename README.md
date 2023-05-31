@@ -3,12 +3,12 @@ This repogitory store the code for implementing the Global-Local CLIP algorithm 
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/75726938/222959862-51826d1e-b082-4f58-8e91-65abcc6d4a5c.PNG" width="700" align="center"> </p>
 
-> [**Zero-shot Referring Image Segmentation with Global-Local Context Features**](https://arxiv.org/abs/2303.17811)  
+> [**Zero-shot Referring Image Segmentation with Global-Local Context Features**][(https://arxiv.org/abs/2303.17811](https://openaccess.thecvf.com/content/CVPR2023/html/Yu_Zero-Shot_Referring_Image_Segmentation_With_Global-Local_Context_Features_CVPR_2023_paper.html))  
 > [Seonghoon Yu](https://scholar.google.com/citations?user=VuIo1woAAAAJ&hl=ko), [Paul Hongsuck Seo](https://phseo.github.io/), [Jeany Son](https://jeanyson.github.io/)  
 > AI graduate school, GIST and Google Research  
 > CVPR 2023  
 
-[arxiv](https://arxiv.org/abs/2303.17811) | [pdf](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Zero-Shot_Referring_Image_Segmentation_With_Global-Local_Context_Features_CVPR_2023_paper.pdf) | [video](https://www.youtube.com/watch?v=X_37jodjz2Y) | [poster](https://github.com/Seonghoon-Yu/Zero-shot-RIS/assets/75726938/d9973d1d-d764-4dbf-bcff-384e48ff52b5) | [bibtex](#citation)
+[paper](https://openaccess.thecvf.com/content/CVPR2023/html/Yu_Zero-Shot_Referring_Image_Segmentation_With_Global-Local_Context_Features_CVPR_2023_paper.html) | [arxiv](https://arxiv.org/abs/2303.17811) | [video](https://www.youtube.com/watch?v=X_37jodjz2Y) | [poster](https://github.com/Seonghoon-Yu/Zero-shot-RIS/assets/75726938/d9973d1d-d764-4dbf-bcff-384e48ff52b5) | [bibtex](#citation)
 
 
 ## Installation
@@ -90,5 +90,15 @@ For options,
 --dataset: refcoco, refcoco+, refcocog  
 --split: val, testA, testB for refcoco and val, test for refcocog  
 
-
 ## Citation
+Please consider citing our paper in your publications, if our findings help your research.
+```
+@InProceedings{Yu_2023_CVPR,
+    author    = {Yu, Seonghoon and Seo, Paul Hongsuck and Son, Jeany},
+    title     = {Zero-Shot Referring Image Segmentation With Global-Local Context Features},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {19456-19465}
+}
+```
