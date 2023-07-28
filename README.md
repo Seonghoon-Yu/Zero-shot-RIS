@@ -25,7 +25,7 @@ conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit
 
 # Install spacy for language processing
 conda install -c conda-forge spacy
-pip install -U pydantic
+pip install pydantic==1.10.11 --upgrade
 python -m spacy download en_core_web_lg
 
 # Install required package
