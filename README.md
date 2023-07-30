@@ -55,6 +55,7 @@ we use [FreeSOLO](https://github.com/NVlabs/FreeSOLO) which is an unsupervised i
 mkdir checkpoints
 cd checkpoints
 wget https://cloudstor.aarnet.edu.au/plus/s/V8C0onE5H63x3RD/download
+mv download FreeSOLO_R101_30k_pl.pth
 ```
 
 ## Dataset
