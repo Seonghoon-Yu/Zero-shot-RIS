@@ -46,6 +46,7 @@ pip install -e .
 cd ..
 cd old_detectron2
 pip install -e .
+pip install pillow==9.5.0
 ```
 
 ### 3. Download FreeSOLO pre-trained weiths
