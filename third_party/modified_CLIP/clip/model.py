@@ -5,7 +5,7 @@ import numpy as np
 import torch
 import torch.nn.functional as F
 from torch import nn
-from utils import MHA
+# from utils import MHA
 
 class Bottleneck(nn.Module):
     expansion = 4
