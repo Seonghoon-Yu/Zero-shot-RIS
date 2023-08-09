@@ -16,7 +16,7 @@ from typing import Optional, Tuple, List
 
 import torch
 import torch.nn as nn
-from torch.nn.modules.linear import NonDynamicallyQuantizableLinear
+# from torch.nn.modules.linear import NonDynamicallyQuantizableLinear
 from torch.nn.modules.module import Module
 from torch import Tensor
 from torch.nn.init import constant_, xavier_normal_, xavier_uniform_
