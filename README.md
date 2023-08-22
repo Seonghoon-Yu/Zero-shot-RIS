@@ -8,7 +8,7 @@ This repogitory store the code for implementing the Global-Local CLIP algorithm 
 > AI graduate school, GIST and Google Research  
 > CVPR 2023  
 
-[paper](https://openaccess.thecvf.com/content/CVPR2023/html/Yu_Zero-Shot_Referring_Image_Segmentation_With_Global-Local_Context_Features_CVPR_2023_paper.html) | [arxiv](https://arxiv.org/abs/2303.17811) | [video](https://www.youtube.com/watch?v=X_37jodjz2Y) | [poster](https://github.com/Seonghoon-Yu/Zero-shot-RIS/assets/75726938/d9973d1d-d764-4dbf-bcff-384e48ff52b5) | [tutorial](https://github.com/Seonghoon-Yu/Zero-shot-RIS/blob/master/KCCV2023_tutorial.ipynb) | [bibtex](#citation)
+[paper](https://openaccess.thecvf.com/content/CVPR2023/html/Yu_Zero-Shot_Referring_Image_Segmentation_With_Global-Local_Context_Features_CVPR_2023_paper.html) | [arxiv](https://arxiv.org/abs/2303.17811) | [video](https://www.youtube.com/watch?v=X_37jodjz2Y) | [poster](https://github.com/Seonghoon-Yu/Zero-shot-RIS/assets/75726938/9ac2da28-f522-4fef-b672-fbd078d40155) | [tutorial](https://github.com/Seonghoon-Yu/Zero-shot-RIS/blob/master/KCCV2023_tutorial.ipynb) | [bibtex](#citation)
 
 
 ## Installation
