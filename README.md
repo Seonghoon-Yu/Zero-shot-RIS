@@ -1,7 +1,7 @@
 # Zero-shot Referring Image Segmentation with Global-Local Context Features
 This repogitory store the code for implementing the Global-Local CLIP algorithm for zero-shot referring image segmentation.
 
-The performance of Global-Local CLIP using SAM as a mask generator can be found in this paper "[Pseudo-RIS](https://github.com/Seonghoon-Yu/Pseudo-RIS)".
+The performances of Global-Local CLIP using SAM as a mask generator are reported in this paper "[Pseudo-RIS](https://github.com/Seonghoon-Yu/Pseudo-RIS)".
 
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/75726938/222959862-51826d1e-b082-4f58-8e91-65abcc6d4a5c.PNG" width="700" align="center"> </p>
